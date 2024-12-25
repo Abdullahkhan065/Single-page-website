@@ -1,0 +1,144 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #FFD09B;
+  }
+  
+  .navbar .navbar-nav .nav-item a {
+    padding: 20px;
+  }
+  
+  .navbar-nav .nav-item a {
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .navbar .navbar-nav .nav-but {
+    padding: 10px;
+  }
+  
+  nav ul li a:active,
+  a:hover {
+    border-radius: 20px;
+    background-color: #FFB0B0;
+  }
+  
+  .dropdown-menu :hover {
+    background-color: #FFB0B0;
+  }
+  
+  .dropdown-menu {
+    color: white;
+  }
+  
+  .nav-but :hover {
+    background-color: #FFB0B0;
+  }
+  #logo-heading{
+    color: #FFB0B0;
+  }
+
+  .sec-card{
+    background-color: #FFECC8;
+  }
+  .card-btn{
+    width: 200px;
+    background-color: #218838;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .watches-head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .two-two-cards{
+    border-radius: 10px;
+  }
+  
+footer {
+  background-color: #FFF7D1;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  padding: 15px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section.quick-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.newsletter form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section.newsletter input {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+.footer-section.newsletter button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-section.newsletter button:hover {
+  background-color: #45a049;
+}
+
+.footer-section.social-media ul {
+  list-style-type: none;
+}
+.footer-section.social-media ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+} 
